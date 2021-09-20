@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light & Dark Mode
+    </title>
+    <link rel="icon" type="image/png" href="carrot.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+
+        <label  class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+<!-- navigation -->
+
+<nav id='navbar'>
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#project">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+
+</nav>
+
+    <!-- Home section -->
+    <section id='home'>
+        <div class="title-group">
+            <h1>Hi, I am Mehriban</h1>
+            <h2>Welcome to my website!</h2>
+        </div>
+    </section>
+
+        <!-- about section -->
+        <section id='about'>
+            <h1>My Blogs</h1>
+            <div class="about-container">
+                <div class="image-container">
+                    <h3>My coding journey</h3>
+                    <img src="img/proud_light.svg" alt="coding-journey" id='image1'>
+                </div>
+
+                <div class="image-container">
+                    <h3>My interests</h3>
+                    <img src="img/codergirl_light.svg" alt="interests" id='image2'>
+                </div>
+
+                <div class="image-container">
+                    <h3>My travels</h3>
+                    <img src="img/myuniverse_light.svg" alt="travels" id='image3'>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id='project'>
+            <h1>My Projects</h1>
+            <div class="buttons">
+                <button class="primary">Face Recognition App</button>
+                <button class="secondary">Food Delivery App</button>
+                <button class="primary" disabled>Data Analysis</button>
+                <button class="outline">Survey Forms</button>
+                <button class="outline" disabled>Automating Text Bots</button>
+                <button class="secondary outline">Stock Calculator</button>
+            </div>
+
+            <div class="text-box" id="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus, excepturi molestias tempore, accusantium modi totam cumque sunt quae dolore non reprehenderit tenetur odio saepe dolorum tempora autem soluta minus.
+                </p>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id='contact'>
+            <h1>Contact me</h1>
+
+            <div class="social-icons">
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </section>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
